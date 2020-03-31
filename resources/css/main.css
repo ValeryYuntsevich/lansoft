@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .container {
+    padding: 2em 2em;
+    height: 100vh;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+    height: 100%;
+  }
+  
